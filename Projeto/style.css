@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 1080px;
+    margin: 0 auto;
+    border: #f0f0f0 solid 1px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #21272B;
+    padding: 0 3%;
+    height: 7rem;
+    align-items: center;
+}
+
+.title{
+    position: absolute;
+    margin-left: 50px;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.title h1{
+    color: #1BB4E8;
+}
+
+.title h2{
+    color: white;
+}
+
+.link nav ul li{
+    display: inline-block;
+    margin: 0 2px;
+    list-style-type: none;
+}
+.link nav ul li:not(:last-child){
+    border-right: 1px solid #fff;
+    padding: 0 20px;
+    
+}
+
+.link nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.boat img{
+   width: 100%;
+}
+
+.box{
+    position: absolute;
+    left: 53%;
+    top: 23rem;
+    background-color: #21272B;
+    padding: 25px;
+    font-style: italic;
+    color: white;
+    
+}
+
+.one{
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+.fone{
+    display: flex;
+    gap: 15px;
+    line-height: 25px;
+}
+
+.fone span{
+    color: #C6B07F;
+}
+
+.container{
+    display: flex;
+}
+
+.destinos{
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+    background-color: #1BB4E8;
+    width: 30rem;
+}
+.destinos h4{
+    margin-top: 3px;
+    font-size: 30px;
+    font-style: italic;
+    color: white;
+}
+
+.subtitulo{
+    margin-top: 20px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.paragrafo{
+    margin-top: 20px;
+    font-style: italic;
+    line-height: 24px;
+    
+}
+
+.nossafrota{
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+    background-color: #C6B07F;
+    width: 32rem;
+    height: 40px;
+
+}
+
+.nossafrota h4{
+    margin-top: 3px;
+    font-size: 30px;
+    font-style: italic;
+    color: white;
+    
+}
+
+.tudos-img{
+    display: flex;
+    gap: 5%;
+}
+
+.img-bag{
+    margin-left: 20px;
+}
+
+.img-bag img{
+    width: 30rem;
+}
+
+footer{
+    display: flex;
+    margin-top: 20px;
+    background-color: #d3d3d3;
+    padding: 20px;
+    align-items: center;
+}
+
+
